@@ -22,14 +22,16 @@ public class Main {
         }
         //Задача 3
         int q = 0;
-        for (q = 0; q < 2022; q = q + 79) {
-            //   System.out.println("q");
-            int z = 1896;
-            for (z = 1896; z < 2122; z = z + 79)
+        int z = (2022 - 200);
+        int w = (2022 + 100);
+        for (q = 0; q < w; q = q + 79) {
+        if (q > z)
+            System.out.println(q);
 
-                System.out.println(z);
-
-            break;
         }
+
+
+
+
     }
 }
